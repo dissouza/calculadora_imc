@@ -1,12 +1,17 @@
-function resultadoImc(altura, peso){
+var altura = "";
+var peso = "";
+var result = "";
 
-	var altura = getElementByClassName("altura");
-	const = altura.value;
+function resultadoImc(){
+	
+	altura = parseInt(document.getElementById("altura").value);
+	peso = parseInt(document.getElementById("peso").value);
+	result = peso / (altura * altura);
 
-	var peso = getElementByClassName("peso");
-	const = peso.value;
 
-	return peso.value / (altura.value * altura.value);
+	if (result > 18.5){
+
+	document.getElementById("#result").innerHTML = "Seu Imc é " + parseInt(result);
+
+	}	
 }
-
-console.log(resultadoImc)
