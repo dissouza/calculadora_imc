@@ -17,14 +17,16 @@
 		<br>
 			<form>
 				<h3>Informe sua altura:</h3>
-				<input type="text" class="altura" placeholder="Sua altura (Exemplo 1.80)">				
+				<input type="text" id="altura" placeholder="Sua altura (Exemplo 1.80)">				
 				<h3>Informe o seu peso:</h3>
-				<input type="text" class="peso" maxlength="3" placeholder="Seu peso">
-				
-				<section class="resultado"><button class="calcular" onclick="resultadoImc(altura, peso)">Calcular</button></section>
+				<input type="text" id="peso" maxlength="3" placeholder="Seu peso (Exemplo 78) Kg">
 				<section>
-
+					<p id="result"></p>
 				</section>
+
+
+				<section><input type="submit" class="calcular" onclick="resultadoImc()" value="Calcular"/></section>
+				
 			</form>
 	</main>
 </body>
