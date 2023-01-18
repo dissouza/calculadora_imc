@@ -3,16 +3,29 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="viewport" content="height=device-height, initial-scale=1.0">
-<link rel="stylesheet" href="style.css" />
-<link rel="stylesheet" href="reset.css" />
+<link rel="stylesheet" href="reset.css"/>
+<link rel="stylesheet" href="style.css"/>
+<script src="script.js" defer></script>
 <head>
 	<title>Calculadora de IMC</title>
 </head>
 <body>
-	<section>Calculadora de IMC</section>
-	<section>Calcule seu IMC abaixo, para saber como está sua saúde</section>
-	<input type="text" name="altura">
-	<input type="text" name="peso">
-	<section class="resultado"></section>
+	<main>
+		<h1>Calculadora de IMC</h1>
+		<br>
+		<h1>Calcule seu IMC abaixo, para saber como está sua saúde</h1>
+		<br>
+			<form>
+				<h3>Informe sua altura:</h3>
+				<input type="text" class="altura" placeholder="Sua altura (Exemplo 1.80)">				
+				<h3>Informe o seu peso:</h3>
+				<input type="text" class="peso" maxlength="3" placeholder="Seu peso">
+				
+				<section class="resultado"><button class="calcular" onclick="resultadoImc(altura, peso)">Calcular</button></section>
+				<section>
+
+				</section>
+			</form>
+	</main>
 </body>
 </html>
