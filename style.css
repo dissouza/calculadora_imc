@@ -9,9 +9,9 @@ body{
 
 main{
 	margin: 0px;
-	display: grid;
+	display: flex;
 	justify-content: center;
-	align-items: center;
+	flex-direction: column;
 	width: 25vw;
 	background: #ccc;
 	padding: 40px;	
@@ -34,6 +34,8 @@ form{
 	max-width: 100%;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	
 }
 input[type=text]{
 	max-width: 100%;
@@ -50,8 +52,15 @@ input[type=text]{
 	margin-top: 20px;
 
 }
-button{
-	padding: 10px;
-	align-items: center;
+.calcular{
+	display: grid;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	padding: 15px;
+	max-width: 40%;
 	justify-content: center;
+	
 }
+
+
