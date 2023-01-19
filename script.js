@@ -7,7 +7,7 @@ function resultadoImc(){
 	var peso = parseInt(document.getElementById("peso").value);
 	var result = document.getElementById("result");
 
-	imc = peso / (altura * altura);
+	imc = peso / (altura**2);
 	
 	result.textContent = imc;
 
