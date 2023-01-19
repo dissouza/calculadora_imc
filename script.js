@@ -1,17 +1,20 @@
-var altura = "";
-var peso = "";
-var result = "";
+
 
 function resultadoImc(){
 	
-	altura = parseInt(document.getElementById("altura").value);
-	peso = parseInt(document.getElementById("peso").value);
-	result = peso / (altura * altura);
+	var imc = "";
+	var altura = parseInt(document.getElementById("altura").value);
+	var peso = parseInt(document.getElementById("peso").value);
+	var result = document.getElementById("result");
+
+	imc = peso / (altura * altura);
+	
+	result.textContent = imc;
 
 
-	if (result > 18.5){
+	if (result >= 18.5){
 
-	document.getElementById("#result").innerHTML = "Seu Imc é " + parseInt(result);
+	document.getElementById("result").innerHTML = `Seu Imc é ${result}`;
 
 	}	
 }
