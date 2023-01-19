@@ -15,19 +15,18 @@
 		<br>
 		<h1>Calcule seu IMC abaixo, para saber como está sua saúde</h1>
 		<br>
-			<form>
+			
 				<h3>Informe sua altura:</h3>
 				<input type="text" id="altura" placeholder="Sua altura (Exemplo 1.80)">				
 				<h3>Informe o seu peso:</h3>
 				<input type="text" id="peso" maxlength="3" placeholder="Seu peso (Exemplo 78) Kg">
-				<section>
-					<p id="result"></p>
+				<section class="resultado">
+					<h3>Resultado:</h3>
+					<p id="result">0</p>
 				</section>
-
 
 				<section><input type="submit" class="calcular" onclick="resultadoImc()" value="Calcular"/></section>
 				
-			</form>
-	</main>
+			</main>
 </body>
 </html>
