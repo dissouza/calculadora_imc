@@ -3,31 +3,30 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="viewport" content="height=device-height, initial-scale=1.0">
-<link rel="stylesheet" href="reset.css"/>
-<link rel="stylesheet" href="style.css"/>
-<script src="script.js" defer></script>
+<link rel="stylesheet" href="assets/css/reset.css"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
+<script src="assets/script/script.js" defer></script>
 <head>
 	<title>Calculadora de IMC</title>
 </head>
 <body>
 	<main>
-		<h1>Calculadora de IMC</h1>
-		<br>
-		<h1>Calcule seu IMC abaixo, para saber como está sua saúde</h1>
-		<br>
-			
-				<h3>Informe sua altura:</h3>
-				<input type="text" id="altura" placeholder="Sua altura (Exemplo 1.80)">				
-				<h3>Informe o seu peso:</h3>
-				<input type="text" id="peso" placeholder="Seu peso (Exemplo 78) Kg">
-				<section class="resultado">
-					<h3>Resultado:</h3>
-					<p id="result">SEU IMC (Insira os dados para calcular)</p>
-					<p id="situacao">SITUAÇÃO (Insira os dados para calcular)</p>
-				</section>
-
-				<section><input type="submit" class="calcular" onclick="resultadoImc()" value="Calcular"/></section>
-				
-			</main>
+		<section class="box">
+			<h1>Calculadora de IMC</h1>
+			<br>
+			<h1>Calcule seu IMC abaixo, para saber como está sua saúde</h1>
+			<br>
+			<h3>Informe sua altura:</h3>
+			<input type="text" id="altura" placeholder="Sua altura (Exemplo 1.80)">				
+			<h3>Informe o seu peso:</h3>
+			<input type="text" id="peso" placeholder="Seu peso (Exemplo 78) Kg">
+			<section class="resultado">
+				<h3>Resultado:</h3>
+				<p id="result">SEU IMC (Insira os dados para calcular)</p>
+				<p id="situacao">SITUAÇÃO (Insira os dados para calcular)</p>
+			</section>
+			<section><input type="submit" class="calcular" onclick="resultadoImc()" value="Calcular"/></section>
+		</section>		
+	</main>
 </body>
 </html>
