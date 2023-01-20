@@ -1,0 +1,72 @@
+body{
+	background: url('assets/img/fundo.jpg') fixed;	
+	width: 100%;
+	height: 100%;
+	display: grid;	
+	font-family: arial;
+}
+main{
+	display: inline-flex;
+	width: 50%;	
+	justify-self: right;
+	
+	
+}
+.box{
+	
+	display: flex;
+	flex-direction: column;	
+	width: 50%;
+	background: rgba(204, 204, 204, 0.6);
+	padding: 40px;	
+	border-radius: 20px;
+	box-shadow: 2px 2px 15px #ccc;
+}
+
+h1{
+	display: inline-flex;
+	justify-content: center;
+	align-content: center;
+}
+
+h3{
+	margin-bottom: 5px;
+	justify-content: center;
+	align-content: center;
+}
+
+form{
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+input[type=text]{
+	max-width: 100%;
+	border: none;
+	border-radius: 2px;
+	padding: 10px;
+	border-bottom: 2px solid black;
+	margin: 0px;
+	margin-bottom: 5px;
+
+}
+
+.resultado{
+	margin-bottom: 20px;
+	font-size: 18px;
+
+}
+.calcular{
+	display: grid;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	padding: 15px;
+	max-width: 40%;
+	justify-content: center;
+	
+}
+
+
