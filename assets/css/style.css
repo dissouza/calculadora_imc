@@ -17,7 +17,6 @@ main{
 	
 }
 .box{	
-	
 	display: inline-flex;
 	flex-direction: column;	
 	justify-content: space-between;	
