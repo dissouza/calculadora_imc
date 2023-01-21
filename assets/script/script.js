@@ -14,6 +14,9 @@ function resultadoImc(){
 
 		result.textContent = "Seu IMC É " + imc.toFixed(2);
 		situacao.textContent = "MAGREZA";
+		situacao.style.padding = "10px";
+		situacao.style.background = "white";
+		situacao.style.color = "black";
 
 	}
 
@@ -21,6 +24,9 @@ function resultadoImc(){
 
 		result.textContent = "Seu IMC É " + imc.toFixed(2);
 		situacao.textContent = "NORMAL";
+		situacao.style.padding = "10px";
+		situacao.style.background = "green";
+		situacao.style.color = "white";
 
 	}	
 
@@ -28,6 +34,9 @@ function resultadoImc(){
 
 		result.textContent = "Seu IMC É " + imc.toFixed(2);
 		situacao.textContent = "SOBREPESO";
+		situacao.style.padding = "10px";
+		situacao.style.background = "yellow";
+		situacao.style.color = "black";
 
 	}
 
@@ -35,6 +44,9 @@ function resultadoImc(){
 
 		result.textContent = "Seu IMC É " + imc.toFixed(2);
 		situacao.textContent = "OBESIDADE";
+		situacao.style.padding = "10px";
+		situacao.style.background = "orange";
+		situacao.style.color = "black";
 
 	}			
 	
@@ -42,14 +54,10 @@ function resultadoImc(){
 
 		result.textContent = "Seu IMC É " + imc.toFixed(2);
 		situacao.textContent = "OBESIDADE GRAVE";
+		situacao.style.padding = "10px";
+		situacao.style.background = "red";
+		situacao.style.color = "white";
+
 
 	}
-
-
-
-
-
-
-
-
 }
