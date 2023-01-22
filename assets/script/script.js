@@ -8,8 +8,8 @@ function resultadoImc(){
 	var result = document.getElementById("result");
 	var situacao = document.getElementById("situacao");
 
-	imc = peso / (altura**2)*10000;
-	
+	imc = peso / (altura**2)*10000; /* Adicionado o 10000 para que cortasse quatro zeros, sem isso, o resultado fica em numeros decimais */
+
 	if (imc < 18.5) {
 
 		result.textContent = "Seu IMC É " + imc.toFixed(2);
