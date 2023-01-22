@@ -27,8 +27,12 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 ## Laptop
 ![laptop](https://user-images.githubusercontent.com/104237978/213900912-b105df4e-d20d-428d-b447-425f3b15c7ff.jpg)
 
+
+
 ##Tablet
 ![tablet](https://user-images.githubusercontent.com/104237978/213900919-617b1294-c175-499a-9cb3-24d7acb05601.jpg)
+
+
 
 ##Mobile
 ![mobile](https://user-images.githubusercontent.com/104237978/213900922-b0ff0a02-b9d9-42b0-a8c7-a558a318b574.jpg)
