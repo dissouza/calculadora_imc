@@ -1,6 +1,9 @@
 # Calculadora de IMC
 Calculadora de Índice de Massa Corpórea
 
+###### Link do Deploy (Página do Projeto):
+https://dissouza.github.io/calculadora_imc/
+
 ## Linguagens e Ferramentas utilizadas no Projeto:
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -16,9 +19,18 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 - Utilizada a forma mais simples e funcional para realizar as operações com Javascript
 - Uso do Photoshop para modificação da imagem de fundo
 
-## Resultado final em Desktop:
+# Resultado em diferentes telas:
 
-![calculadora_imc](https://user-images.githubusercontent.com/104237978/213837587-76a32aa8-6b67-4f94-a106-982558fe952f.jpg)
+## Desktop
+![Desktop](https://user-images.githubusercontent.com/104237978/213900902-83fc04f3-a43e-444e-a321-ef617fd77a4b.jpg)
 
-###### Link do Deploy (Página do Projeto):
-https://dissouza.github.io/calculadora_imc/
+## Laptop
+![laptop](https://user-images.githubusercontent.com/104237978/213900912-b105df4e-d20d-428d-b447-425f3b15c7ff.jpg)
+
+
+
+## Tablet
+![tablet](https://user-images.githubusercontent.com/104237978/213901166-e4863e4a-48f6-4132-9f58-7fb93cec1333.jpg)
+
+## Mobile
+![mobile](https://user-images.githubusercontent.com/104237978/213901173-b8154fd4-8a77-4e28-9c76-b7771cc62ea5.jpg)
