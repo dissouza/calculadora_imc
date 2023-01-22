@@ -29,5 +29,5 @@ O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em HTML,
 
 
 
-#Tablet & Mobile
+#Tablet_Mobile
 ![tablet e mob](https://user-images.githubusercontent.com/104237978/213901130-7c5abb82-861c-4921-9ed0-e2818636a57b.jpg)
